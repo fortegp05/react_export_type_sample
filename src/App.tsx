@@ -1,6 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { isSample, isSamples } from './Sample'
+
+const sample = {
+  id: 1,
+  title: 'string;',
+  descriptions: [
+    {
+      id: 1,
+      softwareDevelopmentId: 1,
+      description: 'string;'
+    },
+  ],
+}
+
+isSample(sample)
 
 function App() {
   return (
